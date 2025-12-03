@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Find the hidden secrets</title>
+        <style>
+body{
+   text-align: left;
+   padding: 25px;
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    color: transparent;
+}
+
+.box1 {
+  margin: 90px;
+  background-color: rgb(176, 176, 176);
+}
+
+.rarityBtn {
+      background-color: white;
+    border-color: gray;
+    border-style: solid;
+    color: black;
+}
+
+#passwordBtn {
+    background-color: lightgrey;
+    border-color: black;
+    border-style: solid;
+    color: black;  
+    position:absolute;
+    top: 1%;
+    right: 0%;
+    
+}
+
+#pass_box {
+  position:absolute;
+  top: 1%;
+  right: 5%;
+}
+
+#message3 { 
+  position:absolute;
+  top: 1.5%;
+  right: 5%;}
+
+  #Secret_Word { 
+  position:absolute;
+  top: 1.7%;
+  right: 17%;
+  background-color: transparent;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+#secret6 {
+  animation-name: secretanimation;
+  animation-duration: 240s;
+}
+
+@keyframes secretanimation {
+  from{color: transparent;}
+  to{color: lime;}
+}
+
+.curtainright {
+  position: absolute;
+  top:0%;
+  z-index: 100;
+  animation: rightcurtain 10s ease forwards;
+  height: 1000px;
+}
+
+@keyframes rightcurtain {
+  from {right: 35%;}
+  to {right: 120%;}
+}
+
+.curtainleft {
+  position: absolute;
+  top:0%;
+  z-index: 100;
+  animation: leftcurtain 10s ease forwards;
+  
+}
+
+@keyframes leftcurtain {
+  from {left: 35%;}
+  to {left: 120%;}
+}
+
+</style>
+</head>
+
+
+
+<body>
+<img src="right.png" class="curtainright">
+<img src="leftcurtain.png" class="curtainleft">
+
+  <div style="display:flex">
+<a href="https://www.roblox.com" target="_blank"><img src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/0/e/e/0eeeb19633422b1241f4306419a0f15f39d58de9.png" style="width:42px;height:42px;"></a> 
+<caption> <- click here for BL<a href="secret5.html" target="_blank" style="color: black;">0</a>X!11!1!1!1</caption>  
+<br>
+<form>
+  <label id="Secret_Word">Secret Word:</label>
+  <input type="password" id="pass_box" name="secretWord">
+  <button ID="passwordBtn" onclick="password()">Submit</button>
+</form>
+  <p id="message3"></p>
+  </div>
+ 
+<!--scret ideas: click on roblox logo, find hidden button, click the dot on the i in website, click the edge of the screen, click a button 6+ cps-->
+
+<p style="color: transparent; position: absolute;">butn</p></a> 
+
+ <h1 style="text-align: center;">hello guys, welcome to my webs<a href="morsecodesecret.html" target="_blank" style="color: darkgray;">i</a>te ig</h1>
+<p>uh this website is super early indev idk what to add</p>
+
+<column style="background-color: rgb(176, 176, 176); width: 20px; height: 200%;">
+
+ <div class="box1"> 
+      <br>
+      <p style="text-align: center;">find the button!!</p>
+      <br><br><br><br><br>
+    <button onclick="secret01()">click the one above please</button>
+
+  <p id="result"></p>
+ 
+</div>
+</column>
+
+
+  <button onclick="pickRandomFruit()" class="rarityBtn">Your rarity is...</button>
+  <p id="resultRare"></p>
+  <!--the p is left blank here so result can be filled in through the javascript-->
+
+
+<p style="color: rgb(254, 254, 254);">the password is "Password123"</p>
+
+
+    <button id="secret6" onclick="secret06()">click me for a secret</button>
+      <p id="result6"></p>
+
+
+
+  <script>
+    function password() {
+  event.preventDefault();
+  const correctPassword = "Password123"; // Replace with your desired password
+  const enteredPassword = document.getElementById("pass_box").value;
+  const messageElement = document.getElementById("message3");
+
+  if (enteredPassword === correctPassword) {
+    messageElement.textContent = "Secret 3 of 5!";
+    messageElement.style.color = "green";
+    // You can add further actions here, like redirecting to another page
+  } else {
+    messageElement.textContent = "password hidden somewhere >:]";
+    messageElement.style.color = "red";
+  }
+}
+
+
+
+    function secret01() {
+      document.getElementById("result").textContent = "you found secret 1 of 5";
+    }
+
+
+
+    function pickRandomFruit() {
+      const fruits = ["common", "common", "common","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common but better","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common","common","common", "common", "common","common", "uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon","uncommon", "rare","rare","rare","rare","rare","rare","rare","rare","rare","rare","rare","rare","rare","rare","rare","rare", "epic","epic","epic","epic","epic","epic","epic","epic", "legendary","legendary","legendary","legendary", "mythic", "mythic", "exotic: you found secret 2 of 5"];
+      const randomIndex = Math.floor(Math.random() * fruits.length);
+      //fruits.length refers to the number of fruits in the array [ ]
+      //math.floor makes the number a whole number
+      const randomFruit = fruits[randomIndex];
+
+      document.getElementById("resultRare").textContent = "your rarity is " + randomFruit + "";
+    }
+
+
+    function secret06() {
+      document.getElementById("result6").textContent = "you found secret 6 of 6";
+    }
+
+  </script>
+
+
+
+
+<p></p>
+</div>
+
+</body>
+
+</html>

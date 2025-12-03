@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- ✅ Proper jQuery Script -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Amusement Park Map Finder</title>
+
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    body {
+      text-align: center;
+      font-size: 2em;
+      color: rgb(255, 0, 0);
+      background-color: lightblue;
+
+    }
+
+    #sixflags {
+      display: none;
+    }
+    #cedarpoint {
+      display: none;
+    }
+
+    #stephanie {
+      display: none;
+    }
+  #kingsisland {
+    display: none;
+  }
+  #sliverdollarcity {
+    display: none;
+  }
+  #mtolympus {
+    display: none;
+  }
+  #holidayworld {
+    display: none;
+  }
+  #michigansadveture {
+    display: none;
+  }
+  #charlie {
+    display: none;
+  }
+  #alennie {
+    display: none;
+  }
+  #anny {
+    display: none;
+  }
+  #joel {
+    display: none;
+  }
+  #krystal {
+    display: none;
+  }
+  #haoshu {
+    display: none;
+  }
+    img {
+      width: 50%;
+      border-radius: 100%;
+      margin: auto;
+    }
+
+ .border-container {
+      width: 100%;
+      height: 100%;
+      background-color: hsl(194, 100%, 76%);
+      position: relative;
+      box-sizing: border-box;
+      border: 2px solid hsl(179, 67%, 73%);
+      overflow: hidden;
+    }
+
+    .border-container::before,
+    .border-container::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background-image: url('https://img.freepik.com/premium-vector/swing-roller-coaster-pattern-seamless-background-texture-repeat-wallpaper-geometric-vector_96318-109441.jpg');
+      background-size: 250px auto;
+      background-repeat: repeat-x;
+      z-index: 1;
+    }
+
+    .border-container::before {
+      top: 0;
+    }
+
+    .border-container::after {
+      bottom: 0;
+      transform: scaleY(-1);
+    }
+
+    .border-side {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 60px;
+      background-image: url('https://img.freepik.com/premium-vector/swing-roller-coaster-pattern-seamless-background-texture-repeat-wallpaper-geometric-vector_96318-109441.jpg');
+      background-size: auto 250px;
+      background-repeat: repeat-y;
+      z-index: 1;
+    }
+
+    .border-side.left {
+      left: 0;
+    }
+
+    .border-side.right {
+      right: 0;
+      transform: scaleX(-1);
+    }
+
+    .textbox {
+      position:relative;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      display: center;
+      padding-top:60px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="border-container">
+    <div class="border-side left"></div>
+    <div class="border-side right"></div>
+    <div class="textbox">
+
+  <div id="name_prompt">
+    <p>What Midwest amusement park are you looking for?</p>
+
+      <button onclick="pickRandomFruit()">Midweast amusement park to search</button>
+      <p id="result"></p>
+
+    <input id="input_name" type="text">
+    <br>
+    <button id="button">Enter</button>
+  </div>
+
+
+
+  <img id="stephanie" src="https://pm1.aminoapps.com/6124/32e391133f5198b623922ac4e653d1fdb2524d9b_00.jpg">
+  <img id="sixflags" src="https://sf-static.sixflags.com/wp-content/uploads/1744812562810-2f8678be-6b74-4e9a-b007-fba5520ca6a5_1.jpg">
+  <img id="cedarpoint" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAvNYNhj_aOSl7L8_Ls7HTgtYdmAmrqec7UQ&s">
+  <img id="kingsisland" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3WHefgXLNCw04sUc-Z7swIJeechcmrJ8vyQ&s">
+  <img id="sliverdollarcity" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq9on1VhdXkjBAdRNuHqHTAYVYvVJZ8Tz1Yw&s">
+  <img id="mtolympus" src="https://i.pinimg.com/736x/03/a7/d2/03a7d2ccc8211fd27d70cb1eb165600b.jpg">
+  <img id="holidayworld" src="https://holidayworld.com/wp-content/uploads/2023/04/New-Attraction-Names-Updated-4-1-2023.webp">
+  <img id="michigansadveture" src="https://www.freep.com/gcdn/presto/2022/05/11/PDTF/3a6f69d5-201d-4355-a033-47b8d5a629b1-Screen_Shot_2022-05-11_at_11.25.12_AM.png?width=1733&height=1122&fit=crop&format=pjpg&auto=webp">
+  <img id="charlie" src="https://play-lh.googleusercontent.com/DKK4lSNRaS9UZcjYVJq05vkGdNU9YPOgsHYm40OB-apZt938OMiJkAmM_v3JrkJnYo4">
+  <img id="alennie" src="https://media.licdn.com/dms/image/v2/D4E22AQG4WdhGWxvW8Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1697817563992?e=2147483647&v=beta&t=xNYCsAQH07RP2QogDHYFZ1DYTQsUt8eW2276OiRpX9M">
+  <img id="anny" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGj54k4EftTjliN_mkA44sGEMBOJaUSfkDxQ&s">
+  <img id="joel" src="https://media.gettyimages.com/id/108703737/photo/adrian-battles-of-the-green-bay-packers-wears-a-cheese-head-hat-during-media-day-at-cowboys.jpg?s=612x612&w=gi&k=20&c=dgDb81J5ybotNBJm-S6H8m6ExSDlTdCQjdc_FIpvyhQ=">
+  <img id="krystal" src="https://i.redd.it/at3526yh4rd31.jpg">
+  <img id="haoshu" src="Screenshot 2025-11-19 at 6.05.12 PM.png">
+  <script>
+
+    $(document).ready(function () {
+
+      function use_name() {
+        var name = $("#input_name").val();
+
+        $("#name_prompt").hide();
+
+        if (name.toLowerCase() === 'sixflags') {
+          $("#welcome").hide();
+          $("#sixflags").show();
+        }
+        if (name.toLowerCase() === 'cedarpoint') {
+          $("#welcome").hide();
+          $("#cedarpoint").show();
+        }
+        if (name.toLowerCase() === 'stephanie') {
+          $("#welcome").hide();
+          $("#stephanie").show();}
+
+        if (name.toLowerCase()=== 'kingsisland') {
+        $("#welcome").hide();
+        $("#kingsisland").show();
+      }
+      if (name.toLowerCase() === 'sliverdollarcity') {
+      $("#welcome").hide();
+      $("#sliverdollarcity").show();
+      }
+      if (name.toLowerCase() === 'mtolympus') {
+      $("#welome").hide();
+      $("#mtolympus").show();
+      }
+      if (name.toLowerCase() === 'holidayworld') {
+      $("#welcome").hide();
+      $("#holidayworld").show();
+      }
+      if (name.toLowerCase() === 'michigansadventure') {
+       $("#welcome").hide();
+       $("#michigansadventure").show();
+      }
+      if (name.toLowerCase() === 'charlie') {
+       $("#welcome").hide();
+       $("#charlie").show();
+      }
+      if (name.toLowerCase() === 'alennie') {
+        $("#welcome").hide();
+        $("#alennie").show();
+      }
+      if (name.toLowerCase() === 'anny') {
+        $("#welcome").hide();
+        $("#anny").show();
+      }
+      if (name.toLowerCase() === 'joel') {
+        $("#welcome").hide();
+        $("#joel").show();
+      }
+      if (name.toLowerCase() === 'krystal') {
+        $("#welcome").hide();
+        $("#krystal").show();
+      }
+      if (name.toLowerCase() === 'haoshu') {
+        $("#welcome").hide();
+        $("#haoshu").show();
+      }
+        else {
+          $("#welcome").html("Welcome, " + name + ".");
+          $("#welcome").show();
+        }
+      }
+
+      function revert() {
+        $("#input_name").val("");
+        $("#welcome").html("");
+        $("#stephanie").hide();
+        $("#sixflags").hide();
+        $("#cedarpoint").hide();
+        $("#kingsisland").hide();
+        $("#sliverdollarcity").hide();
+        $("#mtolympus").hide();
+        $("#holidayworld").hide();
+        $("#michigansadventure").hide();
+        $("#charlie").hide();
+        $("#alennie").hide();
+        $("#anny").hide();
+        $("#joel").hide();
+        $("#krystal").hide();
+        $("#haoshu").hide();
+        $("#welcome").show();
+        $("#name_prompt").show();
+        
+      }
+
+      $("#button").on("click", use_name);
+      $("#stephanie").on("click", revert);
+      $("#sixflags").on("click", revert);
+      $("#cedarpoint").on("click", revert);
+      $("#kingsisland").on("click", revert);
+      $("#sliverdollarcity").on("click", revert);
+      $("#mtolympus").on("click", revert);
+      $("#holidayworld").on("click", revert);
+      $("#michigansadventure").on("click", revert);
+      $("#charlie").on("click", revert);
+      $("#alennie").on("click", revert);
+      $("#anny").on("click", revert);
+      $("#joel").on("click", revert);
+      $("#krystal").on("click", revert);
+      $("#haoshu").on("click", revert);
+    })
+
+    // randomizer
+        function pickRandomFruit() {
+      const fruits = ["sixflags", "cedarpoint", "kingsisland", "holidayworld", "michigansadveture", "mtolympus", "sliverdollarcity","your name (if blank, you're not on, sorry)"];
+      const randomIndex = Math.floor(Math.random() * fruits.length);
+      //fruits.length refers to the number of fruits in the array [ ]
+      //math.floor makes the number a whole number
+      const randomFruit = fruits[randomIndex];
+
+      document.getElementById("result").textContent = "You should try... " + randomFruit + "";
+        }
+  </script>
+</body>
+
+</html>

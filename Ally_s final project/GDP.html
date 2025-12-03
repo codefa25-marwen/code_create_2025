@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDP</title>
+    <style>
+
+/* Popup background overlay */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+
+    /* Popup box */
+    .popup {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      width: 300px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    /* Button styling */
+    .close-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .close-btn:hover {
+      background-color: #0056b3;
+    }
+
+
+
+    </style>
+</head>
+
+
+<body>
+
+
+  <div class="overlay" id="popupOverlay">
+    <div class="popup">
+      <h2>Click on Pig</h2>
+      <button class="close-btn" onclick="closePopup()">Close</button>
+    </div>
+  </div>
+    <div style="text-align: center; margin-top: 15%;">
+          <a href="Gp.html"><img src="https://static.vecteezy.com/system/resources/previews/029/216/896/non_2x/cute-simple-piggy-bank-with-coin-cartoon-clipart-illustration-free-vector.jpg" width="45%"></a>
+
+    </div>
+   
+    <script>
+       function closePopup() {
+      document.getElementById("popupOverlay").style.display = "none";
+    }
+    </script>
+  </body>
+</html>

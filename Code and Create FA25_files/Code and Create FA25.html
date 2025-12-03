@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght,ROND@748,100&display=swap" rel="stylesheet">
+<title>Code & Create 2025</title>
+<style>
+html {
+  background-image: url(https://c02.purpledshub.com/uploads/sites/48/2023/02/why-sky-blue-2db86ae.jpg);
+  background-size: 200%;
+  background-attachment: fixed;
+  animation: bgmove 360s ease infinite;
+}
+
+@keyframes bgmove {
+  0% { background-position: 0% 78%; }
+  50% { background-position: 100% 23%; }
+  100% { background-position: 0% 78%; }
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Doto';
+  src: url('Doto Font/static/Doto_Rounded-Thin.ttf') format('tiff');
+}
+
+
+h1 {
+  font-size: 5rem;
+  margin-top: 2rem;
+  animation: moveright 60s linear infinite alternate;
+  font-family: Doto;
+  opacity: 85%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  animation: moveright 60s linear infinite alternate;
+  font-family: Doto;
+}
+
+p {
+  font-family:monospace;
+}
+
+
+@keyframes moveright {
+  from { padding-left: 0%; }
+  to { padding-left: 60%; }
+}
+
+/* Freeform container */
+#orientation-blocks {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* full screen for freeform placement */
+}
+
+/* Each image is absolutely positioned */
+.image-container {
+  position: absolute;
+  cursor: pointer;
+}
+
+/* Popup div */
+.popup-div {
+  display: none;
+  position: absolute;
+  top: 100%; /* below image */
+  left: 50%;
+  transform: translateX(-50%);
+  background: navy;
+  border-style: dotted;
+  border-width:5px;
+  border-color:whitesmoke;
+  color: white;
+  padding: 10px 15px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+  width: 300px;
+  text-align: center;
+  z-index: 10;
+  margin-top: 10px;
+}
+
+.shadowfilter {
+  filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.6));
+  width: 250px;
+  height: auto;
+}
+</style>
+</head>
+<body>
+
+<h1>Code & Create:<br>
+Marwen Fall 2025</h1>
+
+<div id="orientation-blocks">
+  <div class="image-container" style="top: 150px; left: 300px;" onclick="togglePopup('popup1', event)">
+    <img class="shadowfilter" src="Golden Piggy Bank.webp">
+    <div class="popup-div" id="popup1">
+      <h2>Ally's Project</h2>
+      <p>In Piggyland, learn about pigs and find surprises!</p>
+      <a href="../Ally_s final project/piggy (1).html"><img src="Ally.png" width="75%"></a> 
+      <br><br><br>
+    </div>
+  </div>
+
+  <div class="image-container" style="top: 100px; left: 1150px;" onclick="togglePopup('popup2', event)">
+    <img class="shadowfilter" src="manny.png">
+    <div class="popup-div" id="popup2">
+      <h2>Sinaan's Project</h2>
+      <p>Sinaan made an old school style website with many columns and pop ups.</p>
+      <a href="../Sinaan_s final project/neweb.html">
+        <img src="Sinaan.png" width="75%"></a>
+        <br><br><br>
+    </div>
+  </div>
+
+  <div class="image-container" style="top: 900px; left: 970px;" onclick="togglePopup('popup3', event)">
+    <img class="shadowfilter" src="phone.png">
+    <div class="popup-div" id="popup3">
+      <h2>Davonte's Project</h2>
+      <p>Wishing you have your phone when you are on the computer? Davonte has a solution for you...</p>
+      <a href="../phone app/phone.html"><img src="Davonte.png" width="75%"></a> 
+      <br><br><br>
+    </div>
+  </div>
+
+  <div class="image-container" style="top: 50px; left: 1900px;" onclick="togglePopup('popup4', event)">
+    <img class="shadowfilter" src="secret.png">
+    <div class="popup-div" id="popup4">
+      <h2>Everett's Project</h2>
+      <p>Everett's website contains 6 secrets. Can you find them all?</p>
+      <a href="../everetts final prject/everettwebsite.html"><img src="everett.png" width="75%"></a>
+    </div>
+  </div>
+
+  <div class="image-container" style="top: 1960px; left: 1200px;" onclick="togglePopup('popup5', event)">
+    <img class="shadowfilter" src="Space Jam Logo.png">
+    <div class="popup-div" id="popup9">
+      <h2>WE LOVE
+      <a href="https://www.spacejam.com/1996/">SPACE JAM</a></h2>
+    </div>
+  </div>
+
+  <div class="image-container" style="top: 960px; left: 200px;" onclick="togglePopup('popup5', event)">
+    <img class="shadowfilter" src="house.webp">
+    <div class="popup-div" id="popup5">
+      <h2>Nat's Project</h2>
+      <p>Nat's project is a text-based choose-your-own-adventure game. For lovers of D&D and adventure.</p>
+      <a href="../nats project/finnished woods.html"><img src="nat.png" width="75%"></a>
+      <br><br><br>
+    </div>
+  </div>
+
+  <div class="image-container" style="top: 550px; left: 1540px;" onclick="togglePopup('popup6', event)">
+    <img class="shadowfilter" src="tyler.png">
+    <div class="popup-div" id="popup6">
+      <h2>Matteo's Project</h2>
+      <p>Matteo's project is a choose your own adventure web game based on Tyler the Creator's music, designed based on pokemon games.</p>
+      <a href="../Matteo_s Project/DTTGTYLER.html"><img src="matteo.png" width="75%"></a>
+      <br><br><br>
+    </div>
+  </div>
+
+  <div class="image-container" style="top: 1565px; left: 400px;" onclick="togglePopup('popup7', event)">
+    <img class="shadowfilter" src="rollercoaster.png">
+    <div class="popup-div" id="popup7">
+      <h2>Nathan's Project</h2>
+      <p>Nathan made a randomizer that allows you to find maps to theme parks.</p>
+      <p>TA or META who worked with Nathan? Try searching your name for a surprise!</p>
+      <a href="../03.Faux_Search_Bar.html"><img src="nathan.png" width="75%"></a>    </div>
+  </div>
+
+  <div class="image-container" style="top: 1300px; left: 1890px;" onclick="togglePopup('popup8', event)">
+    <img class="shadowfilter" src="Eggman Pixel Art.png">
+    <div class="popup-div" id="popup8">I'm Eggman!</div>
+  </div>
+
+  <div class="image-container" style="top: 1600px; left: 1690px;" onclick="togglePopup('popup8', event)">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1024px-HD_transparent_picture.png">
+  </div>
+</div>
+
+<script>
+function togglePopup(id, event) {
+  event.stopPropagation(); // prevent triggering document click
+  const popup = document.getElementById(id);
+  
+  // Hide any other popups
+  document.querySelectorAll('.popup-div').forEach(p => {
+    if (p !== popup) p.style.display = 'none';
+  });
+
+  // Toggle clicked popup
+  popup.style.display = (popup.style.display === 'block') ? 'none' : 'block';
+}
+
+// Clicking anywhere outside closes popups
+document.addEventListener('click', () => {
+  document.querySelectorAll('.popup-div').forEach(p => p.style.display = 'none');
+});
+</script>
+
+</body>
+</html>
