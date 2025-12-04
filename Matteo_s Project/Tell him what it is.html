@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<style>
+          html {
+          cursor: url("cursor (1).cur"), default!important;
+      }
+      
+      .header{
+   font-size: 220%;
+   color: rgb(255, 255, 255);
+   font-family: initial;
+   border-style: double;
+   border-radius: 50px;
+   border-color:red;
+   background-color:red ;
+   margin: 80px;
+   padding: 1px;
+   text-align: center;
+} 
+h1{
+    font-size: 220%;
+   color: rgb(255, 255, 255);
+   font-family: initial;
+}
+
+p{
+    font-family: 120%;
+    font-family: monospace;
+}
+
+body{ 
+     background-image: url('https://images.genius.com/38c7f2d086d9c6dc174ca5632b496dd0.1000x1000x1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.game {
+  position: relative;
+  background-image: url('https://i.pinimg.com/736x/bc/04/cb/bc04cb52383d1fa783914bcca1fe612c.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  border-radius: 8px 8px 0 0;
+  height: 480px;
+  width: 800px;
+}
+
+.opponent {
+  position: relative;
+  height: 300px;
+}
+
+.opponent .stats {
+  position: absolute;
+  top: 96px;
+  left: 40px;
+  width: 320px;
+}
+
+.opponent .pokemon {
+  position: absolute;
+  bottom: 0;
+  right: 140px;
+  width: 100px;
+}
+
+.player {
+  position: relative;
+  height: 192px;
+}
+
+.player .stats {
+  position: absolute;
+  top: 48px;
+  right: 40px;
+  width: 320px;
+}
+
+.player .pokemon {
+  position: absolute;
+  left: 100px;
+  bottom: 10px;
+  width: 160px;
+}
+
+.box {
+  padding: 8px;
+  background: #333;
+  border: 3px solid black;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  color: #fff;
+  height: 120px;
+  width: 784px;
+}
+
+.box .message {
+  position: relative;
+  float: left;
+  font-size: 24px;
+  width: 50%;
+}
+.box .continue {
+  position: absolute;
+  margin-top: 30px;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.box .continue  button {
+  position: relative;
+  float: left;
+  background: #666;
+  border: 3px solid #888;
+  border-radius: 4px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 20px;
+  line-height: 14px;
+  margin: 4px;
+  padding: 16px;
+  outline: none !important;
+}
+.box .continue button:hover {
+  background: #777;
+  border-color: #999;
+}
+
+.box .continue button:active {
+  background: #555;
+  border-color: #666;
+}
+
+.box .actions {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.box .actions button {
+  position: relative;
+  float: left;
+  background: #666;
+  border: 3px solid #888;
+  border-radius: 4px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 20px;
+  line-height: 14px;
+  margin: 4px;
+  padding: 16px;
+  width: calc(50% - 8px);
+  height: calc(50% - 8px);
+  outline: none !important;
+}
+
+.box .actions button:hover {
+  background: #777;
+  border-color: #999;
+}
+
+.box .actions button:active {
+  background: #555;
+  border-color: #666;
+}
+.stats {
+  background: #111;
+  border: 2px solid black;
+  border-radius: 8px;
+  color: white;
+  padding: 12px;
+}
+
+.stats .pokeballs {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.stats .pokeballs .pokeball {
+  position: relative;
+  float: left;
+  background-image: url('image-removebg-preview.png');
+  background-size: 100% 100%;
+  width: 25px;
+  height: 25px;
+}
+
+.stats .hp-count:before {
+  content: 'HP: '
+}
+
+.stats .hp-count {
+  float: right;
+}
+
+
+.stats .name {
+  font-weight: bold;
+}
+
+.stats .level:before {
+  content: "LVL"
+}
+ 
+.container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+</head>
+<body>
+<audio src="Tell me.w_01.mp3"display:none;" autoplay></audio>
+
+</div>
+
+
+
+<div class="container">
+<div class="game">
+  <div class="opponent">
+    <div class="stats">
+      <div class="top">
+        <div class="pokeballs">
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+        </div>
+        <div id = "apHP" class="hp-count">50</div>
+      </div>
+      <span class="name">
+        IGOR
+      </span>
+      <span class="level">
+        2
+      </span>
+    </div>
+    <img class="pokemon" src="tyler-the-creator-ali-graham-unscreen (2).gif" alt ="A sprite of charizard" />
+  </div>
+  <div class="player">
+    <div class="stats">
+      <div class="top">
+        <div class="pokeballs">
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+        </div>
+        <div id = "myHP" class="hp-count">45</div>
+      </div>
+      <span class="name">
+        Big Poe
+      </span>
+      <span class="level">
+        1
+      </span>
+    </div>
+    <img class="pokemon" src="https://media.tenor.com/f67mrYekpxQAAAAj/tyler-the-creator-don%27t-tap-the-glass.gif" alt="A gif from blastoises back sprite" />
+  </div>
+</div>
+</div>
+<div class="container">
+<div class="box">
+  <div id = "message" class="message">
+You told him... You dealt 30 damage. He asked, "Are We Still Friends?" He hurt you emotionally. Dealing 30 Damage.   </div>
+  <div class="actions">
+    <a href="Take care of him.html">
+    <button>Take care of him</button></a>
+   <a href="Don't You Worry.html"> 
+    <button>Don't You Worry</button></a>
+    </div>
+
+    
+
+  
+
+
+
+<script>
+
+</script>
+
+</body>
+</html>
