@@ -1,0 +1,195 @@
+
+    
+
+<html lang="en">
+  
+  <!DOCTYPE html>
+  <title>website.</title>
+  <style> 
+  
+  body { 
+    color: rgb(243, 243, 243);
+    background-color: rgb(21, 160, 90);
+  }
+  .columns {
+      display: flex;
+      flex-wrap: wrap; /* Makes it responsive */
+    }
+    
+
+    .column-wide {
+      flex: 1; 
+      min-width: 250px; /* So they stack on small screens */
+      min-height: 400px;
+      padding: 40px 20px;
+      color: white;
+    }
+    
+
+     .column-narrow {
+      flex: 1; 
+      min-width: 250px; /* So they stack on small screens */
+      max-width:250px;
+      min-height: 400px;
+      padding: 40px 20px;
+      color: rgb(131, 118, 170);
+    }
+
+    .images {
+      background-color: rgb(55, 226, 16);
+    }
+
+
+    .sidebarr {
+      
+      background-color: rgb(147, 81, 159);
+margin-top: -3%;
+margin-right: 1%;
+    }
+    
+    .header {
+      background-color: rgb(44, 16, 115);
+      padding: 50px;
+    }
+
+    .ftc {
+      margin-left: 30%;
+      margin-top: -1%;
+      position: absolute;
+    }
+
+    .cups {
+      position: absolute;
+    }
+    
+
+
+    .search {
+      position: absolute;
+      margin-top: -20%;
+    }
+
+    p {
+      color: wheat;
+    }
+
+    .joestar {
+      background-color: rgb(rgb(92, 56, 169),);
+    }
+
+    .btn {
+      background-color: rgb(255, 0, 0);
+      width: 290px;
+      margin-right: 40%;
+    }
+
+
+    .btn2 {
+      background-color: rgb(21, 160, 90);
+      width: 250px
+      
+    }
+    
+    .overlay {
+      position: fixed;
+      top: -40px;
+      left: 260px;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+
+    .popup {
+      background: rgb(45, 102, 194);
+      padding: 0px 0%;
+      border-radius: 2%;
+      box-shadow: 0 4px 12px black;
+      width: 300px;
+      animation: fadeIn 0.3 ease;
+    }
+
+    .close-btn {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      margin-left: 30%;
+    }
+
+    .close-btn:hover {
+      background-color: maroon;
+    }
+
+
+
+    
+    </style> 
+<body> 
+  <div>
+  <img 
+  class="cups"
+  src="/Users/codefa25/Downloads/wgatv/IMG_8575_412d595e-6d41-434f-be38-674d1f5a47d1.webp"
+  width="1496"
+  height="40"/>
+    <h1 class="header">hello</h1>
+
+  </div>
+
+     <div class="overlay" id="popupOverlay">
+      <div class="popup">
+              WARNING! You have a virus
+      <button class="close-btn" onclick="closePopup()">X</button>
+      </div>
+
+    </div>
+    </div>
+    <img
+  class="ftc"
+  src="/Users/codefa25/Downloads/wgatv/flight-reacts.gif"
+  alt="Grapefruit slice atop a pile of other slices"
+  width="130"
+  height="100"/>
+
+  
+
+
+  
+  <div class="columns">
+    <section class="column-wide images"> 
+      <form action="https://en.wikipedia.org/wiki/Joseph_Joestar">
+<input type="submit" value="joseph joestar" class="joestar">
+        </form>
+      <h2>library</h2>
+    </section>
+
+
+
+    <section class="column-narrow sidebarr"> 
+      <form action="https://www.youtube.com/">
+      <input type="submit" value="videos" class="btn">
+      </form>
+    </section>
+
+    
+    <div class="square"></div>
+  </div>
+      <section class="search">
+      <form action="https://www.google.com/">
+      <input type="submit" value="search" class="btn2">
+      </form>
+    </section>
+  </div>
+  
+  <script>
+    function closePopup() {
+      document.getElementById("popupOverlay").style.display = "none";
+    }
+  </script>
+ 
