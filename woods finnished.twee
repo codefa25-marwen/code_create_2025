@@ -1,0 +1,1176 @@
+:: StoryTitle
+Untitled Story
+
+
+:: StoryData
+{
+  "ifid": "8710ACA8-0622-41D3-B422-D8BAC8E02DDE",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "home",
+  "zoom": 0.3
+}
+
+
+:: "not my problem" {"position":"4375,6925","size":"100,100"}
+the old man looks angry but not enough to attack
+
+[[move down the road]]
+
+
+
+:: "the last??" {"position":"4350,6725","size":"100,100"}
+"our young have been curesed by an evil wizards hand he's hidden in the hills"
+
+[["what hills"]]
+[["not my problem"]] 
+
+
+:: "what hills" {"position":"4175,6875","size":"100,100"}
+he points north the forest giving way to reviling a vast field hill after hill spreading as far as your eyes let you.
+
+"please kill him" he hands you a knife.
+
+[[move towards the hill]]
+[[
+
+
+:: "what's happening" {"position":"4250,6575","size":"100,100"}
+"the last of our young has fallen ill"
+
+[["the last??"]]
+[["with what"]]
+
+
+
+:: "whats in your bag {"position":"1950,4200","size":"100,100"}
+she grabs a bundle from inside the bag before looking up at you.
+"oh just something for the stew"
+
+[[take a seat by the fire]] 
+
+
+
+:: "with what" {"position":"4175,6725","size":"100,100"}
+"a wizard in the hills has cursed our village"
+
+[["what hills"]]
+[["not my problem"]]
+
+
+
+
+:: ...... {"position":"1775,1725","size":"100,100"}
+the boys grip loosens letting you go
+"they have nothing worth killing for"
+says the old man
+[[run off]]
+[[stay]]
+
+
+:: Untitled Passage {"position":"2950,3425","size":"100,100"}
+
+
+
+:: Untitled Passage 1 {"position":"2475,1975","size":"100,100"}
+
+
+
+:: Untitled Passage 10 {"position":"4300,1100","size":"100,100"}
+
+
+
+:: Untitled Passage 11 {"position":"4200,1000","size":"100,100"}
+
+
+
+:: Untitled Passage 12 {"position":"4800,1100","size":"100,100"}
+
+
+
+:: Untitled Passage 13 {"position":"4700,1100","size":"100,100"}
+
+
+
+:: Untitled Passage 14 {"position":"4400,550","size":"100,100"}
+
+
+
+:: Untitled Passage 15 {"position":"4400,450","size":"100,100"}
+
+
+
+:: Untitled Passage 16 {"position":"4500,550","size":"100,100"}
+
+
+
+:: Untitled Passage 17 {"position":"4400,350","size":"100,100"}
+
+
+
+:: Untitled Passage 18 {"position":"4500,650","size":"100,100"}
+
+
+
+:: Untitled Passage 19 {"position":"4500,350","size":"100,100"}
+
+
+
+:: Untitled Passage 2 {"position":"2450,1125","size":"100,100"}
+
+
+
+:: Untitled Passage 20 {"position":"4500,750","size":"100,100"}
+
+
+
+:: Untitled Passage 21 {"position":"4500,450","size":"100,100"}
+
+
+
+:: Untitled Passage 22 {"position":"4500,850","size":"100,100"}
+
+
+
+:: Untitled Passage 23 {"position":"4100,1000","size":"100,100"}
+
+
+
+:: Untitled Passage 24 {"position":"4900,1000","size":"100,100"}
+
+
+
+:: Untitled Passage 25 {"position":"4100,1100","size":"100,100"}
+
+
+
+:: Untitled Passage 26 {"position":"4300,1200","size":"100,100"}
+
+
+
+:: Untitled Passage 27 {"position":"4100,1200","size":"100,100"}
+
+
+
+:: Untitled Passage 28 {"position":"4900,1200","size":"100,100"}
+
+
+
+:: Untitled Passage 29 {"position":"4900,1100","size":"100,100"}
+
+
+
+:: Untitled Passage 3 {"position":"4300,1000","size":"100,100"}
+
+
+
+:: Untitled Passage 30 {"position":"4200,1200","size":"100,100"}
+
+
+
+:: Untitled Passage 31 {"position":"4700,1200","size":"100,100"}
+
+
+
+:: Untitled Passage 32 {"position":"4800,1200","size":"100,100"}
+
+
+
+:: Untitled Passage 33 {"position":"4600,450","size":"100,100"}
+
+
+
+:: Untitled Passage 34 {"position":"4600,550","size":"100,100"}
+
+
+
+:: Untitled Passage 35 {"position":"4600,750","size":"100,100"}
+
+
+
+:: Untitled Passage 36 {"position":"4600,350","size":"100,100"}
+
+
+
+:: Untitled Passage 37 {"position":"4600,850","size":"100,100"}
+
+
+
+:: Untitled Passage 38 {"position":"4600,650","size":"100,100"}
+
+
+
+:: Untitled Passage 39 {"position":"4500,250","size":"100,100"}
+
+
+
+:: Untitled Passage 4 {"position":"4700,1000","size":"100,100"}
+
+
+
+:: Untitled Passage 40 {"position":"4400,250","size":"100,100"}
+
+
+
+:: Untitled Passage 41 {"position":"4600,250","size":"100,100"}
+
+
+
+:: Untitled Passage 42 {"position":"2700,2625","size":"100,100"}
+
+
+
+:: Untitled Passage 5 {"position":"4400,850","size":"100,100"}
+
+
+
+:: Untitled Passage 6 {"position":"4400,650","size":"100,100"}
+
+
+
+:: Untitled Passage 7 {"position":"4400,750","size":"100,100"}
+
+
+
+:: Untitled Passage 8 {"position":"4800,1000","size":"100,100"}
+
+
+
+:: Untitled Passage 9 {"position":"4200,1100","size":"100,100"}
+
+
+
+:: a light cathchs your eye {"position":"1875,2825","size":"100,100"}
+you see a cabin the warm light of a fire calls out to you.
+
+[[come closer]]
+
+
+
+:: accept her offer {"position":"2250,3450","size":"100,100"}
+you enter the cabin its warm a fire in the center
+
+
+:: accept whats coming {"position":"2075,1700","size":"100,100"}
+the old man cuts the rope holding you up
+"run along now"
+
+[[run off]]
+
+
+:: aprouch {"position":"1150,7575","size":"100,100"}
+you see she left a window open letting you place the blade inside before retreating to the dark.
+
+[[return to the road and rest]]
+
+
+:: aprouch her {"position":"1375,8225","size":"100,100"}
+you aprouch her she looks up at you smiling
+"hello friend here" she reaches for a small bundle and hand it to you "its bread theres a town not far up the road"
+
+[[thank her]]
+
+
+:: aprouch him {"position":"1150,8275","size":"100,100"}
+the old man gestures for the gaurds "I SAW HIM HELP HER KILL THEM TAKE HIM!"
+the gaurds grab pulling a sack over your head and pulling you to the carridge.
+
+[[the end]]
+
+
+:: aprouch it {"position":"1400,7750","size":"100,100"}
+you reach the field and make a forrow in the soil placing the medalian inside before barrying it
+
+[[make your way back to the road]]
+
+
+:: ask about the lady {"position":"1000,6600","size":"100,100"}
+"the snakes trying to get rid of me by telling people im some thief" his arms crossed and brow furrowed.
+
+[[ask to help him]]
+
+
+:: ask about the old man {"position":"1450,6625","size":"100,100"}
+"the bastard took all my bread in the night i swear it" she speaks her hate for him on clear display.
+
+[[offer help]]
+cross to [[the old mans hut]]
+
+
+:: ask for directions {"position":"2250,2375","size":"100,100"}
+"up the road is a cabin the woman who lives there is not what she seems"
+the old man says in a dire tone.
+
+[[run off]] 
+
+
+:: ask for help {"position":"950,6450","size":"100,100"}
+"no hand outs everything in MY hut is MINE unless" he looks at you
+
+[[unless?]]
+
+
+
+:: ask one of the folk {"position":"4275,6425","size":"100,100"}
+you see an old man dressed in holy robes and aprouch.
+
+[["what's happening"]]
+
+
+
+:: ask to help him {"position":"1200,6600","size":"100,100"}
+"here" he hands you a bloody knife wrapped in cloth "hide this in her home and ill give you SOME of my bread"
+
+[[let me think on this]]
+[[take the knife]]
+
+
+:: awake {"position":"900,4700","size":"100,100"}
+you shoot up the cold air stinging your lungs.
+
+[[move further up the road]] 
+
+
+:: awake in the mouring {"position":"1150,8100","size":"100,100"}
+you are woken by the sound of yelling the woman being taken by four gaurds they throw her in the back of a carridge.
+
+the old man stands smiling in his yard [[aprouch him]]
+
+
+:: block whats coming {"position":"1500,3800","size":"100,100"}
+the blade comes crashing down towards you only blocked by your arms.
+"dont fight it please"
+
+before you can react her coat [[catches fire]]
+
+
+:: bolt {"position":"1700,3450","size":"100,100"}
+you run off into the woods you can hear her voice calling out after you
+
+[[keep going]] 
+
+
+:: book it {"position":"1525,1925","size":"100,100"}
+you push him off and book it into the woods the old man not giving chase
+
+[[keep running]]
+
+
+:: catches fire {"position":"1450,3950","size":"100,100"}
+the flame spreads up her side allowing you to [[run for the door]]
+
+
+:: climb through {"position":"3375,7025","size":"100,100"}
+you quitly enter the smell eminateing from the door to the next room.
+it apears to be a small bedroom a cot and desk are the only furnishings.
+
+[[investigate the desk]]
+[[
+
+
+:: close the door {"position":"1100,5100","size":"100,100"}
+your head feels light and you sway slightly but you mange to push the door shut.
+the womans screams boil into a howl. 
+
+[[stammer away]]
+[[hold it]]
+
+
+:: come closer {"position":"1875,3025","size":"100,100"}
+you see the fires light reaching out from under the door
+ 
+[[put your ear to the door]]
+[[knock]]
+
+
+:: come inside {"position":"1900,3750","size":"100,100"}
+you enter her cabin its warm and friendly an idel home a pot of stew is bubbling on her fire.
+
+[[take a seat by the fire]]
+[[stay standing]]
+
+
+
+:: crawl away {"position":"1725,5275","size":"100,100"}
+you try and crawl back to the woods before your grabbed once again by the ankle.
+
+[[pull the blade from your side]]
+[[try and shake it off]]
+
+
+:: credits {"position":"2025,525","size":"100,100"}
+(text-rotate-y:34)[NAT]
+
+
+[[home]]
+
+
+:: cut the rope {"position":"1575,1300","size":"100,100"}
+[[flee]]
+
+
+:: cut yourself down {"position":"1775,1500","size":"100,100"}
+you crash the soft bed of the forest cushions the fall somewhat.
+[[try and stand]]
+
+
+:: drive the blade into its skull {"position":"1725,5700","size":"100,100"}
+you drive the blade into her skull
+she shrieks in pain her grasp loosing as she falls apart on the ground.
+
+[[run into the woods]] 
+
+
+:: end {"position":"1375,8475","size":"100,100"}
+you lived out the rest of your life in the town dying of old age.
+
+the end
+
+
+:: enter {"position":"3975,7600","size":"100,100"}
+
+
+
+:: enter the cabin {"position":"1500,3225","size":"100,100"}
+you enter the cabin the orange glow of the fire filling you with a warmth you thought lost.
+"come now take a seat by the fire" she says
+
+
+[[take a seat]]
+
+
+:: fall {"position":"2250,1950","size":"100,100"}
+you hit the ground the air is knocked out of you but your still alive
+"sorry for the trap"
+
+[[look up]]
+[[run off]]
+
+
+:: flee {"position":"1400,1300","size":"100,100"}
+you flee deeper in the woods the screams of the old man holding his lost friend echo from behind you.
+
+[[keep running]]
+
+
+
+:: grab the coat {"position":"4175,6075","size":"100,100"}
+you throw the coat over your bear torso.
+
+[[move towards the steeple]]
+
+
+:: hanging {"position":"2000,1275","size":"100,100"}
+two men in long red hoods climb out from the bush and aprouch you 
+
+"this one looks rough" says the older of the two
+the younger one runs his hands through your pockets finding nothing.
+ 
+the glint of something under his robes catch your eye.
+[[look closer]]
+
+
+:: have a cup of stew {"position":"1775,4250","size":"100,100"}
+you pour a cup and relax before your pushed into the flame.
+
+
+[[swing behind you]] 
+
+
+:: hide in the dark {"position":"2250,3225","size":"100,100"}
+the woman opens the door making direct eye contact with you.
+
+"you dont need to hide come come"
+
+[[accept her offer]] 
+[[turn and leave]]
+
+
+:: hold it {"position":"900,5100","size":"100,100"}
+the shriek only grows louder pirecing your ears
+and your vision begins to fade.
+
+[[lean into the door]]
+[[stammer away]] 
+
+
+:: hold the door {"position":"1275,5525","size":"100,100"}
+her voice slowly drops lower and lower turning into a loud howle.
+
+[[run into the woods]]
+
+
+
+:: home {"position":"2025,675","size":"100,100"}
+click one of em
+
+[[start]]
+[[credits]]
+
+
+
+:: investigate symbol {"position":"3975,7300","size":"100,100"}
+the symbol is a circle of snakes a crown sitting in the centure.
+
+[[open the door]]
+[[step back]]
+
+
+:: investigate the desk {"position":"3375,7150","size":"100,100"}
+a small stack of papers sit on the desk ink and fether lay next to the pile.
+the ink is dry.
+
+[[look through the stack]]
+[[step away from the desk]]
+
+
+:: keep booking it {"position":"2600,3900","size":"100,100"}
+you run for what feels like hours her shrieks fading with your vision.
+
+[[awake]]
+
+
+:: keep going {"position":"1500,6000","size":"100,100"}
+you keep running for what feels like hours the long dark giving way to beatiful open fields of wheat. 
+
+[[there are two huts]]
+
+
+:: keep moving {"position":"2025,950","size":"100,100"}
+you stumble down the road leaving whats left of what you knew behind.
+
+ahead of you lays a loaf in the road.
+
+[[kick it]]
+[[pick it up]]
+
+
+:: keep running {"position":"1875,2525","size":"100,100"}
+the sun fades from the sky a chill runs down your spine.
+[[a light cathchs your eye]]
+
+
+:: keep walking {"position":"4175,5800","size":"100,100"}
+you continue down the path and before long you find a town everyone packed into the church.
+
+[[look around]]
+
+
+:: kick her {"position":"1500,5100","size":"100,100"}
+you look back and kick her loosing her grasp.
+
+[[run into the woods]]
+
+
+
+:: kick it {"position":"2200,1100","size":"100,100"}
+you kick the loaf it flys up the trail before you can see where it lands your pulled up by your foot
+
+[[hanging]]
+
+
+:: knock {"position":"2075,3225","size":"100,100"}
+you knock and hear footsteps moving towards the door.
+[[wait]]
+[[hide in the dark]]
+
+
+:: lanturn {"position":"2600,3400","size":"100,100"}
+you grab the lanturn and smash it over her head.
+her tight grasp loosins letting you escape
+[[run for it]]
+
+
+:: lean into the door {"position":"725,5100","size":"100,100"}
+oh(text-rotate-y:57)[oh (text-rotate-y:83)+(text-rotate-z:359)[fuuuuuuuuccccckkkkkkkk]]
+
+
+
+
+[[wake]]
+
+
+:: let it be {"position":"2075,1550","size":"100,100"}
+the old man reaches for his blade and moves closer.
+
+[[accept whats coming]]
+[[resist]]
+
+
+:: let me think on it {"position":"1450,6775","size":"100,100"}
+she tucks it back into her bag responding "fair enough" before returning to her axe.
+
+cross the road to [[the old mans hut]]
+
+
+
+:: let me think on this {"position":"825,6900","size":"100,100"}
+"you dont have long to make up your mind" he says putting the blade 
+
+
+:: listen closer {"position":"1700,3225","size":"100,100"}
+the song is beatiful a warmth fills your chest before the door swings open a woman standing in its frame.
+"hello pilgrim come in and take a seat"
+
+you feel safe you must[[enter the cabin]]
+
+
+
+:: look around {"position":"4175,5950","size":"100,100"}
+a few small huts and farms surround a large ornaite steeple.
+
+there is a coat hanging on a small fence post.
+
+[[grab the coat]]
+
+
+
+:: look back {"position":"1550,5700","size":"100,100"}
+you look back at what was once a woman now a flaming pile of snakes and worms.
+
+[[keep going]] 
+
+
+:: look closer {"position":"2000,1425","size":"100,100"}
+a blades clint shining from under the boys robes
+[[reach for it]]
+[[let it be]]
+
+
+:: look for the woman {"position":"1775,4650","size":"100,100"}
+you see shes standing above you a look of fear on her face.
+
+[[run for the door]]
+
+
+:: look through the stack {"position":"3375,7275","size":"100,100"}
+you pull the top piece of paper out from the stack and read it.
+
+"its only been 1 summer since my boy was killed by there hand today i make things right"
+
+[[step away from the desk]] 
+
+
+:: look up {"position":"2250,2100","size":"100,100"}
+the two stand above you the boy reaching his hand out.
+
+[[take his hand]]
+[[run off]] 
+
+
+:: make your way back to the road {"position":"1375,7975","size":"100,100"}
+you reach the road and lay under an adjoining tree.
+
+[[wake up]]
+
+
+:: make your way to the old mans field {"position":"1400,7600","size":"100,100"}
+you make your way to the old mans field obscured by the dark.
+
+you see his field and [[aprouch it]]
+
+
+:: move along the side of the house {"position":"3775,6825","size":"100,100"}
+you hear nothing as you creep along the wall.
+a window sits ajar.
+
+[[move to closer to the window]]
+
+
+:: move down the road {"position":"4375,7050","size":"100,100"}
+you move down the road the dark forest givng way to a large open field hill after hill spraling outward.
+
+
+
+
+:: move further up the road {"position":"1025,6025","size":"100,100"}
+you stumble down the road barly holding yourself together.
+
+before long the dark wood gives way to open fields of wheat.
+
+you see up the road[[there are two huts]]
+
+
+
+:: move to closer to the window {"position":"3575,6825","size":"100,100"}
+you see a dark room only lit by the open window.
+
+[[open the window]]
+[[try and peek through]]
+
+
+:: move towards the hill {"position":"4175,7050","size":"100,100"}
+you follow the old mans directions.
+before long you see what appears to be the "wizards lair"
+a small cabin sitting atop the hill.
+
+[[move along the side of the house]]
+[[walk up to the door]]
+
+
+:: move towards the steeple {"position":"4175,6225","size":"100,100"}
+you investigate the packed building filled with the overlapping voices of the townsfolk filling the building wall to wall.
+
+[[try and cut through the crowd]]
+[[ask one of the folk]]
+
+
+
+:: offer help {"position":"1625,6775","size":"100,100"}
+"if you want to help barry this in his wheat field"
+she hands you a strange medalian.
+
+[[let me think on it]]
+[[take the medalian]]
+
+
+
+
+:: open it {"position":"1600,4950","size":"100,100"}
+as you swing the door open the woman grabs you by your ankle pulling back down to the ground.
+
+[[kick her]]
+[[try and run]]
+
+
+:: open the door {"position":"3975,7475","size":"100,100"}
+the solfurious stentch of death hits you pushing you back a step.
+
+[[enter]]
+
+
+:: open the window {"position":"3375,6825","size":"100,100"}
+as you open the window the stench of death hits your nose.
+
+[[climb through]]
+
+
+
+:: pick it up {"position":"2000,1100","size":"100,100"}
+you pick up the loaf its hard but not stale before you can take a bite a rope pulls you up by your feet leaving you [[hanging]]
+
+
+:: pick yourself up {"position":"725,5525","size":"100,100"}
+you pull yourself up to your feet a sharp pain emnating from your side.
+
+
+[[move further up the road]]
+
+
+
+:: pull the blade from your side {"position":"1725,5500","size":"100,100"}
+the woman has morphed into a mass of snakes and bones its skull screaming in your face.
+[[drive the blade into its skull]]
+
+
+
+
+:: put pressure on it {"position":"1100,5600","size":"100,100"}
+you put your hand over the wound stopping the flow.
+
+[[pick yourself up]]
+
+
+:: put your ear to the door {"position":"1875,3225","size":"100,100"}
+you can hear a woman singing to herself as she moves through the cabin.
+
+[[knock]] 
+[[listen closer]]
+
+
+:: put your hands to the flame {"position":"1600,4100","size":"100,100"}
+you move closer to the fire.
+ 
+[[sigh]]
+
+
+
+:: reach for it {"position":"1925,1550","size":"100,100"}
+you grab the blade from its sheeth
+[[cut yourself down]]
+[[sink it into his chest]]
+
+
+:: reject her offer {"position":"1900,3450","size":"100,100"}
+you take a step back and turn down her invitation.
+she responds "oh but there lay wolves ahead best you stay the night" 
+
+[[come inside]] 
+[[bolt]]
+
+
+:: remain standing {"position":"2100,4400","size":"100,100"}
+she gestures to the stew once again smiling.
+"please i mean it"
+a slight anger brewing in her voice.
+
+
+
+
+:: remove the blade {"position":"1125,5375","size":"100,100"}
+you pull it from your side blood spilling down your leg.
+
+[[put pressure on it]]
+
+
+
+:: remove the knife {"position":"1300,5100","size":"100,100"}
+you remove the blade from your side.
+blood pours from your side a wine dark river forming down your leg.
+
+[[close the door]]
+
+
+:: remove your shirt {"position":"1600,4525","size":"100,100"}
+you quickly remove the flaming shirt throwing it back to the flame.
+
+[[run for the door]]
+[[look for the woman]]
+
+
+:: resist {"position":"2250,1550","size":"100,100"}
+you shake and scream trying to fight off the old man.
+"im not going to kill you"
+[[trust]]
+[[yell louder]]
+
+
+:: return to the road and rest {"position":"1150,7925","size":"100,100"}
+you reach the road and lay under an adjoining tree.
+
+[[awake in the mouring]]
+
+
+:: run for it {"position":"2600,3575","size":"100,100"}
+you sprint out of the cabin through the woods hearing her screams morph into a nightmarish shriek.
+
+you have the urge [[to look back]]
+
+
+:: run for the door {"position":"1600,4825","size":"100,100"}
+you sprint for the door fire spreading behind you.
+
+
+[[open it]]
+
+
+
+
+:: run into the woods {"position":"1550,5400","size":"100,100"}
+as you run off into the dark woods the shrieking sending a chill down your spine.
+
+[[look back]]
+[[keep going]]
+
+
+:: run off {"position":"2050,2050","size":"100,100"}
+you run deeper in the woods the kind bandits letting you keep your life.
+
+[[keep running]]
+
+
+:: shake {"position":"1900,5700","size":"100,100"}
+as you shake your leg its hand is torn from the rest of the mass.
+this doesnt lossin its tight grip
+
+
+:: shake your head {"position":"1625,6625","size":"100,100"}
+"id offer food but that old freak STOLE IT ALL!" she yells across the yard to the other hut.
+
+[[ask about the old man]]
+
+
+:: sigh {"position":"1575,4250","size":"100,100"}
+you feel the sting of a blade in your shoulder.
+you fall forward into the fire arm first.
+
+
+[[swing behind you]]
+
+
+:: sink it into his chest {"position":"1775,1300","size":"100,100"}
+he yells as it slips between his ribs. the older of the two looks shocked and fumbles for his blade
+
+[[cut the rope]]
+
+
+
+:: sink the balde into his chest {"position":"1550,1700","size":"100,100"}
+you feel his grasp loosin as you stab him his wine dark blood spilling onto you
+
+[[book it]]
+
+
+:: slam the door {"position":"1275,5375","size":"100,100"}
+you slam the foor behind you holding it shut as you hear her screaming on the other side.
+
+[[hold the door]]
+[[run into the woods]]
+
+
+
+:: stammer away {"position":"900,4900","size":"100,100"}
+you stumble up the road away from the cabin the yells fadeing with your vision.
+
+[[awake]]
+
+
+:: stand {"position":"1125,7400","size":"100,100"}
+you make your way to the womans hut covered by the dark.
+
+[[aprouch]]
+
+
+:: stand and watch {"position":"3875,6425","size":"100,100"}
+
+
+
+:: start {"position":"2025,800","size":"100,100"}
+behind you lay the rubble of your home the life you once knew reduced to ash.
+
+[[keep moving]]
+
+
+
+:: stay {"position":"1875,2050","size":"100,100"}
+[[look up]] 
+
+
+:: stay standing {"position":"2100,4000","size":"100,100"}
+she glares at you moving towards a small bag and reaching inside.
+
+[["whats in your bag]]
+[[watch silently]]
+
+
+
+:: step away from the desk {"position":"3550,7175","size":"100,100"}
+
+
+
+:: step back {"position":"4150,7300","size":"100,100"}
+
+
+
+:: swing behind you {"position":"1600,4400","size":"100,100"}
+you throw a fist blindly conecting to nothing.
+the fire spreads up your back.
+
+[[remove your shirt]]
+
+
+
+:: swing your arms {"position":"2600,3225","size":"100,100"}
+you swing your arms around trying to resist her grasp.
+
+theres a [[lanturn]] by the door
+
+
+:: take a seat {"position":"1500,3450","size":"100,100"}
+you sit by the fire the warm embrace brings you back home.
+
+[[until]]
+
+
+:: take a seat by the fire {"position":"1800,4000","size":"100,100"}
+you move close to the flame the heat allows you to slide into relaxation.
+ 
+ "make yourself at home" says the woman
+ 
+ [[put your hands to the flame]]
+ [[have a cup of stew]]
+ 
+
+
+:: take his hand {"position":"2250,2250","size":"100,100"}
+he pulls you up to your feet. 
+"he's a mute got no tounge" says the old man
+[[ask for directions]]
+[[run off]] 
+
+
+:: take the knife {"position":"1000,6900","size":"100,100"}
+you take the knife blood runs down your arm.
+"sit by the road"
+
+[[wait till nightfall]]
+
+
+
+:: take the medalian {"position":"1625,6975","size":"100,100"}
+you take the medalian and put it in your pocket.
+"your free to wait here till nightfall'
+
+[[wait in her hut]]
+[[wait by the road]]
+
+
+:: thank her {"position":"1375,8350","size":"100,100"}
+you thank her and move up the road best not to qustion the old mans fate.
+
+[[end]]
+
+
+:: the end {"position":"1150,8475","size":"100,100"}
+you hung along side the woman in the town square for a crime neither of you commited.
+
+the end
+
+
+:: the old mans hut {"position":"1125,6450","size":"100,100"}
+the old man stands arms crossed infront of his hut behind the hut is a large wheat field.
+"whatever she told you stranger is a lie i have no need for her bread"
+
+[[ask for help]]
+[[ask about the lady]]
+
+
+
+:: there are two huts {"position":"1300,6325","size":"100,100"}
+two people stand outside each hut an old man on the right a young woman on the left.
+
+aprouch the [[young ladies hut]] or  [[the old mans hut]] 
+
+
+:: to look back {"position":"2600,3750","size":"100,100"}
+you look back and see the woman has turned into a pile of bones and snakes.
+
+[[keep booking it]]
+
+
+:: trust {"position":"2250,1825","size":"100,100"}
+you stop yelling as the old man cuts you down. 
+[[fall]]
+
+
+:: try and cut through the crowd {"position":"4050,6425","size":"100,100"}
+you push your way through the crowed church in the center of the room lays a young boy on a bed surronded by his family and 2 healers.
+
+[[stand and watch]]
+
+
+:: try and enter {"position":"3300,6325","size":"100,100"}
+you quitly enter the room the smell only getting worse.
+it apears to be a small bedroom a bed and desk are the only furnishings.
+
+[[
+[[
+
+
+:: try and peek through {"position":"3575,7025","size":"100,100"}
+all you can see is a desk a lone stack of papers atop.
+
+[[open the window]] 
+
+
+:: try and run {"position":"1700,5100","size":"100,100"}
+you pull your leg away her grasp giving way
+[[crawl away]]
+
+
+:: try and shake it off {"position":"1900,5400","size":"100,100"}
+you look at what grabed your ankle a mass of worms and snakes shrieking after you.
+you shake your leg violently loosing its grasp.
+ 
+you get to your feet and [[run into the woods]]
+
+
+:: try and stand {"position":"1625,1500","size":"100,100"}
+the younger of the two jumps on top of you pinning you by your arms
+"JOSEPH!"
+yells the old man
+
+[[sink the balde into his chest]]
+[[......]]
+
+
+:: turn and leave {"position":"2425,3225","size":"100,100"}
+you turn to leave before your pulled from behind landing on your back.
+"i said COME IN"
+
+[[swing your arms]]
+
+
+:: unless? {"position":"800,6600","size":"100,100"}
+"here" he hands you a bloody knife wrapped in cloth "hide this in her home and ill give you SOME of my bread"
+
+[[let me think on this]]
+[[take the knife]]
+
+
+:: until {"position":"1500,3625","size":"100,100"}
+your pulled to the floor the woman stands over you knife held high.
+ 
+you hold your arms up to [[block whats coming]]
+
+
+:: wait {"position":"2075,3350","size":"100,100"}
+before long the door swings open a friendly looking woman standing in the frame
+
+"aw welcome come in i have stew boiling"
+
+[[reject her offer]]
+[[accept her offer]]
+
+
+:: wait by the road {"position":"1425,7375","size":"100,100"}
+you sit by the road before long the sun leaves the sky and the night returns cold as ever.
+
+[[make your way to the old mans field]]
+
+
+:: wait in her hut {"position":"1800,7400","size":"100,100"}
+you wait with her till nightfall. 
+
+[[make your way to the old mans field]] 
+
+
+:: wait till nightfall {"position":"1000,7100","size":"100,100"}
+you sit by the road before long the sun leaves the sky and the night returns cold as ever.
+
+[[stand]]
+
+
+:: wake {"position":"725,5225","size":"100,100"}
+you awake in the moring the cabin burnt to ash infront of you.
+
+[[pick yourself up]] 
+
+
+:: wake up {"position":"1375,8100","size":"100,100"}
+you wake up and look into the old mans yard.
+
+he is on his knees dead praying to a god that did not listen his face frozen in fear.
+
+the woman is sharping her axe
+[[aprouch her]]
+
+
+:: walk up to the door {"position":"3975,7125","size":"100,100"}
+you aprouch the door it looms over you in its wooden frame.
+theres a symble carved into it.
+
+[[investigate symbol]]
+
+
+:: watch silently {"position":"2200,4200","size":"100,100"}
+she takes a bundle of cloth out of her bag before hiding it in her coat.
+"have some stew before the cold takes it."
+
+
+
+[[take a seat by the fire]] 
+[[remain standing]]
+
+
+:: yell louder {"position":"2475,1675","size":"100,100"}
+as you scream louder and shake harder the old man cuts the rope at your feet.
+[[fall]]
+
+
+:: young ladies hut {"position":"1450,6475","size":"100,100"}
+you aprouch the young lady she's sharpining an axe.
+she looks up at you "woods werent kind uh?"
+
+[[shake your head]]
+[[ask about the old man]]
