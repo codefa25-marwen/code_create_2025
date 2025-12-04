@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-coins</title>
+    <style>
+
+/* Popup background overlay */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+
+    /* Popup box */
+    .popup {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      width: 300px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    /* Button styling */
+    .close-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .close-btn:hover {
+      background-color: #0056b3;
+    }
+
+
+
+    </style>
+</head>
+
+
+<body>
+
+ <a href="piggy%20(1).html"><p>Go back</p></a>
+  <div class="overlay" id="popupOverlay">
+    <div class="popup">
+      <h2>Oops you broke the wrong pig :(</h2>
+      <button class="close-btn" onclick="closePopup()">Close</button>
+    </div>
+  </div>
+    <div style="text-align: center; margin-top: 15%;">
+    <img src="https://myfirstnestegg.com/wp-content/uploads/broken-piggy-bank-with-dollars.jpg" width="45%">
+
+    </div>
+  
+    <script>
+       function closePopup() {
+      document.getElementById("popupOverlay").style.display = "none";
+    }
+    </script>
+  </body>
+</html>
