@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>website</title>
+<style>
+    .box {
+    
+    width: 100px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+  }
+ #box5 { background: orange; }
+
+ 
+ 
+ </style>
+ 
+</head>
+<body>
+
+<div id="pikachu"><img src="/Users/codefa25/Downloads/Code Templates/0UF4Gqxwe330DKxNz1_GpmkwIDX0e_TyJdXbbkDVm78.jpg" title ="Rotate"></div>
+
+<script>
+const box5 = document.getElementById('pikachu');
+  box5.addEventListener('click', () => {
+    let angle = 1;
+    function rotate() {
+      angle += 2.5;
+      box5.style.transform = `rotate(${angle}deg)`;
+      requestAnimationFrame(rotate);
+    }
+    rotate();
+  });
+  </script>
+
+
+<h1>pika pika :3<h1>
+
+
+
+</body>
+</html>
